@@ -11,12 +11,12 @@ class Around extends Component {
       <div className="around">
         <h1>Around The web</h1>
         <div id="social-buttons">
-          <a href="https://github.com/cadimas">
+          <a href="mailto:andre.cadima.gomes@gmail.com">
             <button className="round-btn ">
               <ReactSVG src={email} svgStyle={{ width: 30 }} />
             </button>
           </a>
-          <a href="https://www.linkedin.com/">
+          <a href="https://www.linkedin.com/in/andre-gomes-49b031180/">
             <button className="round-btn ">
               <ReactSVG src={linkedin} svgStyle={{ width: 30 }} />
             </button>

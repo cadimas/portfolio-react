@@ -7,7 +7,7 @@ import stir from "./images/stir3.png";
 
 class Modal extends Component {
   render() {
-    let txt = this.props.text;
+    let txt;
     let title = this.props.title;
     let display = this.props.display + " modal-container";
     let img;
@@ -16,30 +16,31 @@ class Modal extends Component {
 
     switch (this.props.title) {
       case "Simon":
-        txt = "Simple memory game called Simon, built with React Js.";
-        siteLink = "https://github.com/cadimas/Simon-react";
+        txt =
+          "Simple memory game , built with React Js as client-side, and node express as server side.";
+        siteLink = "https://andregomesportfolio.com:1338";
         gitLink = "https://github.com/cadimas/Simon-react";
         img = simon;
         break;
       case "Tic-Tac-Toe React":
         txt =
           "Simple Tic-tac-toe game built with React Js, on the first player mode it uses a minmax algorithm to determine the best move ";
-        siteLink = "https://github.com/cadimas/tic-tac-toe-React";
+        siteLink = "https://andregomesportfolio.com:1337";
         gitLink = "https://github.com/cadimas/tic-tac-toe-React";
         img = tic;
         break;
       case "Stir":
         txt =
-          "Freelancing project, where I used Node and express for backend, and used EJS to build the templates.";
-        siteLink = "https://github.com/cadimas/StirWebsite";
+          "Freelancing project, where I used Node and express for backend, and used EJS to render templates on the client side.";
+        siteLink = "https://andregomesportfolio.com:1440";
         gitLink = "https://github.com/cadimas/StirWebsite";
         img = stir;
         break;
       default:
         txt =
-          "Jquery based project, where it uses AJAX queries to the WIKI API to display search results.";
-        siteLink = "https://github.com/cadimas/Simon-react";
-        gitLink = "https://github.com/cadimas/Simon-react";
+          "Jquery based web project, where it uses AJAX queries to the WIKI API to display search results. Back-end with Node and Express.";
+        siteLink = "https://andregomesportfolio.com:1339";
+        gitLink = "https://github.com/cadimas/wikiViewer";
         img = wiki;
         break;
     }
